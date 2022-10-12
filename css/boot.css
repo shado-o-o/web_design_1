@@ -1,0 +1,200 @@
+ body{
+    padding-top: 55px;
+    
+ }
+.navbar-brand span{
+    color: #e41b17;
+    font-size: 15px;
+}
+.navbar-nav .dropdown-menu{
+    border-top: 2px solid #e41b17;
+    background-color: #212529;
+}
+.dropdown-item{
+    color: white;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+    
+}
+.dropdown-item:hover{
+    background-color: #e41b17;
+    color: white;
+    padding-left: 25px;
+}
+.dropdown-divider{
+color: #ff0000;
+}
+.btn-outline-success{
+    color: #e41b17;
+    border-color: #e41b17;
+}
+.btn-outline-success:hover{
+    color: white;
+    background-color: #e41b17;
+    border-color: #e41b17;
+}
+img, svg {
+    color: #e41b17;
+    font-size: 15px;
+    width: 25px;
+}
+.w-100{
+    height: 400px;
+}
+.carousel-indicators .active{
+background-color: #e41b17;
+opacity: 0.5;
+}
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .lead{
+color: #888;
+font-size: 25px;
+margin-top: 15px;
+}
+.about h1 span{
+    color: #e41b17;
+}
+.offcanvas-title{
+    color: #e41b17;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.offcanvas{
+    background-color: #212529;
+    color: white;
+}
+.social-icons {
+    
+    margin-bottom: 25px; 
+    margin-left: 5px;
+}
+.social-icons a{
+    padding-right: 20px;
+    font-size: 25px;
+    color: #e41b17;
+}
+#carouselExampleSlidesOnly{
+width: 60%;
+margin-left: 20%;
+}
+#carouselExampleSlidesOnly img{
+    width: 100%;
+    height: 300px;
+}
+.content-image img{
+    width: 190px;
+    height: 190px;
+    border: 1px solid #212529;
+    border-radius:5px;
+    transition:0.7s ease;
+    -o-transition: 0.7s ease;
+    -moz-transition: 0.7s ease;
+    -webkit-transition: 0.7s ease;
+}
+.content-image img:hover{
+    transform: scale(1.1);
+}
+.content-h4{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+
+}
+.content-titille h2{
+color: #e7d8d8d3;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.content-titille h2 span{
+    color: #e41b17;
+    font-size: 21px;
+}
+.card-title{
+    color: #e41b17;
+    font-size: 25px;
+}
+.progress{
+    height: 30px;
+}
+.spice{
+height: 30px;
+color: #212529;
+}
+.myskills{
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+.myskills img{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #e41b17;
+}
+.myskills h3 span{
+    color: #e41b17;
+}
+.my_team{
+    background-image: url(../image/istockphoto-1224968439-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    
+    color: white;
+}
+.my_team .opc{
+    background: #212529d6;
+    height: 100%;
+    width: 100%;
+}
+.my_team h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:35px;
+}
+.team_space{
+    height: 50px;
+}
+.carousel-item .team_image img{
+width: 100px;
+height: 100px;
+border:2px solid #e41b17;
+border-radius: 50%;
+}
+.carousel-item h5{
+    color: #e41b17;
+    font-size: 20px;
+}
+.my_video{
+    padding-top: 20px;
+}
+.my_video h4{
+    font-size: 25px;
+    color: #212529;
+
+}
+.my_video video{
+    padding-top: 15px;
+    width: 70%;
+    border-radius: 10px;
+}
+.my_video .offcanvas-body video{
+    width: 99%;
+    border-radius: 20px;
+}
+.my_video .offcanvas-body .street{
+width: 100%;
+height: 1px;
+background-color: #e41b17;
+}
+.under_build{
+    padding-top: 80px;
+   
+}

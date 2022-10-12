@@ -1,0 +1,65 @@
+let video = document.querySelectorAll("video");
+let input_research=document.querySelector(".form-control");
+let button_research=document.querySelector(".button_research");
+
+console.log(input_research);
+
+button_research.addEventListener("click",function(){
+    window.open("https://www.google.com/search?q="+input_research.value);  
+})
+video[0].onplay=function(){
+    video[1].pause();
+    video[2].pause();
+    video[3].pause();
+    video[4].pause();
+    video[5].pause();
+    video[6].pause();
+}
+video[1].onplay=function(){
+    video[0].pause();
+    video[2].pause();
+    video[3].pause();
+    video[4].pause();
+    video[5].pause();
+    video[6].pause();
+}
+video[2].onplay=function(){
+    video[0].pause();
+    video[1].pause();
+    video[3].pause();
+    video[4].pause();
+    video[5].pause();
+    video[6].pause();  
+}
+video[3].onplay=function(){
+    video[0].pause();
+    video[1].pause();
+    video[2].pause();
+    video[4].pause();
+    video[5].pause();
+    video[6].pause();
+}
+video[4].onplay=function(){
+    video[0].pause();
+    video[1].pause();
+    video[2].pause();
+    video[3].pause();
+    video[5].pause();
+    video[6].pause();
+}
+video[5].onplay=function(){
+    video[0].pause();
+    video[1].pause();
+    video[2].pause();
+    video[4].pause();
+    video[3].pause();
+    video[6].pause();
+}
+video[6].onplay=function(){
+    video[0].pause();
+    video[1].pause();
+    video[2].pause();
+    video[4].pause();
+    video[5].pause();
+    video[3].pause();
+}
